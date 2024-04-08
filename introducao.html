@@ -16,7 +16,14 @@
         const btn2 = document.getElementById("btn2")
         const btn3 = document.getElementById("btn3")
 
-        
+        function clicou(){
+            console.log("click btn1 funcao anonima")
+        }
+
+        btn.onclick =function(){
+            console.log("click btn1 funcao anonima")
+        }
+        btn1.onclick = clicou
     </script>
 </body>
 </html>
