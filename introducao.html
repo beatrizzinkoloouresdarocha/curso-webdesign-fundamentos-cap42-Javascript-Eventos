@@ -12,28 +12,25 @@
     <button id="btn3">botao 3</button>
 
     <script>
-        const btn1 = document.getElementById("btn1")
-        const btn2 = document.getElementById("btn2")
-        const btn3 = document.getElementById("btn3")
+        const btn1 = document.getElementById("btn1");
+        const btn2 = document.getElementById("btn2");
+        const btn3 = document.getElementById("btn3");
 
         function clicou(){
-            console.log("click btn1 funcao anonima")
+            console.log("click btn1 funcao anonima");
         }
 
-        btn.onclick =function(){
-            console.log("click btn1 funcao anonima")
-        }
-        btn1.onclick = clicou
+        btn1.onclick = clicou;
 
-        btn2.addEventListener("click",clicou)
+        btn2.addEventListener("click", clicou);
 
-        btn2.addEventListener("click",function(){
-            console.log("click funcao anonima")
-        })
+        btn2.addEventListener("click", function(){
+            console.log("click funcao anonima");
+        });
 
         btn2.onclick = function(){
-            console.log("funcao anonima no btn2")
-        }
+            console.log("funcao anonima no btn2");
+        };
 
     </script>
 </body>
