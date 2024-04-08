@@ -38,9 +38,9 @@
             console.log("btn3")
         },false)
 
-        document.addEventListener("click",function(abacaxi){
-            console.log("abacaxi")
-            abacaxi.stopPropagation()
+        document.addEventListener("click",function(e){
+            console.log(e)
+            e.stopPropagation()
             console.log("clicou no btn3")
         },false)
 
