@@ -62,7 +62,7 @@
         const btns =document.querySelectorAll(".container2 button")
         console.log(btns)
         btns.forEach(btn => {
-            btn.addEventListener("click",function(){
+            btn.addEventListener("click",function(e){
             e.stopPropagation()
             console.log("clicou em btn")
              })
